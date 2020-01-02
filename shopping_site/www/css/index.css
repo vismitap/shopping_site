@@ -1,0 +1,101 @@
+.top-nav{
+    background-color: khaki;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    float: right;
+    position:fixed;
+    z-index: 1;
+
+   }
+   body{
+       margin:0px;
+       overflow-x: hidden;
+
+   }  
+   a.top{ 
+      padding: 20px 20px;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      font-family: Georgia;
+      font-size: 20px;
+
+  }
+   a.top:hover{
+      color: rgb(255, 255, 255);
+      background-color: rgb(248, 209, 82);
+  }
+  #img1{
+      height: 55px;
+      width: 40px;
+      margin: 5px;
+  }
+  
+ .mySlides{
+     display: flex;
+     z-index: 0.5;
+     height: 600px;
+     animation: fade;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-fill-mode: forwards;
+     min-width: 100%;
+     margin-right: 20px;
+    
+    
+ }
+ @keyframes fade {
+     0%{
+          
+          opacity:0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+  
+  .footer-1{
+      padding-left: 30px;
+      background-color:khaki;
+      height: 200px;
+      width: 100%;
+  }
+   
+
+
+ .footer-2{
+     background-color: black;
+     padding-left: 20px;
+     height: 400px;
+     width: 100%;
+ }
+
+ .footer-3{
+     background-color: rgb(39, 38, 38);
+     height: 50px;
+     width: 100% ;
+     margin-top: -20px;
+     padding-left: 20px;
+ }
+
+ .footer-a{
+     color: antiquewhite;
+     font-size: 20px;
+     text-decoration: none;
+     position: absolute;
+     }
+
+     .footer-a:hover{
+         font-size: 25px;
+         background-color:rgb(39, 38, 38) ;
+     }
+
+     .careers{
+         background-color: white;
+         height: 90px;
+         width: 100px;
+     }
+ 
+        
+       
